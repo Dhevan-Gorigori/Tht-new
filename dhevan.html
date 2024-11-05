@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Pegawai</title>
+    <link rel="stylesheet" href="dhevan.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Data Pegawai</h1>
+        <form id="employeeForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error" id="errorName"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="errorEmail"></span>
+
+            <label for="position">Jabatan:</label>
+            <input type="text" id="position" name="position" required>
+            <span class="error" id="errorPosition"></span>
+
+            <label for="phone">Telepon:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <span class="error" id="errorPhone"></span>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+    <script src="dhevan.js"></script>
+</body>
+</html>
